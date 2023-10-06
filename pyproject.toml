@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "account-manager"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "account_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+sqlalchemy = "^2.0.21"
+pydantic = "^2.4.2"
+pydantic-settings = "^2.0.3"
+bcrypt = "^4.0.1"
+alembic = "^1.12.0"
+asyncpg = "^0.28.0"
+python-jose = "^3.3.0"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
